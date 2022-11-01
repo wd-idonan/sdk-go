@@ -3,6 +3,7 @@ Copyright (C) BABEC. All rights reserved.
 Copyright (C) THL A29 Limited, a Tencent company. All rights reserved.
 
 SPDX-License-Identifier: Apache-2.0
+author wd
 */
 
 package examples
@@ -57,28 +58,28 @@ var users = map[string]*User{
 		"../../testdata/crypto-config/wx-org2.chainmaker.org/user/client1/client1.sign.crt",
 	},
 	"org1admin1": {
-		"../../testdata/crypto-config/wx-org1.chainmaker.org/user/admin1/admin1.tls.key",
-		"../../testdata/crypto-config/wx-org1.chainmaker.org/user/admin1/admin1.tls.crt",
-		"../../testdata/crypto-config/wx-org1.chainmaker.org/user/admin1/admin1.sign.key",
-		"../../testdata/crypto-config/wx-org1.chainmaker.org/user/admin1/admin1.sign.crt",
+		"./chaindata/crypto-config/bcn1.bitschain.com/user/admin1/admin1.tls.key",
+		"./chaindata/crypto-config/bcn1.bitschain.com/user/admin1/admin1.tls.crt",
+		"./chaindata/crypto-config/bcn1.bitschain.com/user/admin1/admin1.sign.key",
+		"./chaindata/crypto-config/bcn1.bitschain.com/user/admin1/admin1.sign.crt",
 	},
 	"org2admin1": {
-		"../../testdata/crypto-config/wx-org2.chainmaker.org/user/admin1/admin1.tls.key",
-		"../../testdata/crypto-config/wx-org2.chainmaker.org/user/admin1/admin1.tls.crt",
-		"../../testdata/crypto-config/wx-org2.chainmaker.org/user/admin1/admin1.sign.key",
-		"../../testdata/crypto-config/wx-org2.chainmaker.org/user/admin1/admin1.sign.crt",
+		"./chaindata/crypto-config/bcn2.bitschain.com/user/admin1/admin1.tls.key",
+		"./chaindata/crypto-config/bcn2.bitschain.com/user/admin1/admin1.tls.crt",
+		"./chaindata/crypto-config/bcn2.bitschain.com/user/admin1/admin1.sign.key",
+		"./chaindata/crypto-config/bcn2.bitschain.com/user/admin1/admin1.sign.crt",
 	},
 	"org3admin1": {
-		"../../testdata/crypto-config/wx-org3.chainmaker.org/user/admin1/admin1.tls.key",
-		"../../testdata/crypto-config/wx-org3.chainmaker.org/user/admin1/admin1.tls.crt",
-		"../../testdata/crypto-config/wx-org3.chainmaker.org/user/admin1/admin1.sign.key",
-		"../../testdata/crypto-config/wx-org3.chainmaker.org/user/admin1/admin1.sign.crt",
+		"./chaindata/crypto-config/bcn3.bitschain.com/user/admin1/admin1.tls.key",
+		"./chaindata/crypto-config/bcn3.bitschain.com/user/admin1/admin1.tls.crt",
+		"./chaindata/crypto-config/bcn3.bitschain.com/user/admin1/admin1.sign.key",
+		"./chaindata/crypto-config/bcn3.bitschain.com/user/admin1/admin1.sign.crt",
 	},
 	"org4admin1": {
-		"../../testdata/crypto-config/wx-org4.chainmaker.org/user/admin1/admin1.tls.key",
-		"../../testdata/crypto-config/wx-org4.chainmaker.org/user/admin1/admin1.tls.crt",
-		"../../testdata/crypto-config/wx-org4.chainmaker.org/user/admin1/admin1.sign.key",
-		"../../testdata/crypto-config/wx-org4.chainmaker.org/user/admin1/admin1.sign.crt",
+		"./chaindata/crypto-config/bcn4.bitschain.com/user/admin1/admin1.tls.key",
+		"./chaindata/crypto-config/bcn4.bitschain.com/user/admin1/admin1.tls.crt",
+		"./chaindata/crypto-config/bcn4.bitschain.com/user/admin1/admin1.sign.key",
+		"./chaindata/crypto-config/bcn4.bitschain.com/user/admin1/admin1.sign.crt",
 	},
 	"org5admin1": {
 		"../../testdata/crypto-config/wx-org5.chainmaker.org/user/admin1/admin1.tls.key",
